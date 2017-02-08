@@ -1,6 +1,6 @@
 # Engaging Networks (EN) Page Buidler SCSS
 
-This project is intended to make developing EN wrappers for their [http://support.engagingnetworks.net/page-builder](Page builder) app easier and allows the use of modern, snazzy tech to be used whilst hacking such as...
+This project is intended to make developing EN wrappers for their [Page builder](http://support.engagingnetworks.net/page-builder) app easier and allows the use of modern, snazzy tech to be used whilst hacking such as...
 
 * [node-sass](https://github.com/sass/node-sass) for SCSS compilation.
 * [Browsersync](https://browsersync.io/) has been included to speed up testing and developing across devices.
