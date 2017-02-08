@@ -1,0 +1,38 @@
+{
+  "name": "engaging-networks-page-builder-scss",
+  "version": "1.0.0",
+  "description": "Normalising and SCSS styles for Engaging Networks Page builder, ready to plug in your choice of SCSS framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "clean": "rimraf dist/*",
+    "build": "concurrently \"npm run clean\" \"npm run build:styles\" \"npm run browsersync\" \"npm run watch\"",
+    "build:styles": "node-sass --output-style expanded assets/scss/**.* -o dist/css",
+    "watch": "npm run watch:styles",
+    "watch:styles": "node-sass --output-style expanded -w -r assets/scss/**.* -o dist/css",
+    "browsersync": "browser-sync start --server --files 'dist/css/**.*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isibbot/engaging-networks-page-builder-scss.git"
+  },
+  "keywords": [
+    "Engaging Networks",
+    "Page Builder",
+    "EN",
+    "SCSS"
+  ],
+  "author": "Tom Sibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isibbot/engaging-networks-page-builder-scss/issues"
+  },
+  "homepage": "https://github.com/isibbot/engaging-networks-page-builder-scss#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "concurrently": "^3.1.0",
+    "node-sass": "^4.5.0",
+    "npm-watch": "^0.1.8",
+    "rimraf": "^2.5.4"
+  }
+}

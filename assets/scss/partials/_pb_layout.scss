@@ -1,0 +1,39 @@
+// Structural layout of page builder
+
+.en__component{
+
+
+    &.en__component--page{
+
+    }
+
+    &.en__component{
+
+        &.en__component--row{
+            
+            // Shared column class
+            &.en__component--column{
+
+            }
+            // One column 
+            &.en__component--row--1{
+
+                // column
+                .en__component--column--1{
+
+                }
+            }
+            // Two column
+            &.en__component--row--2{
+
+                // First column
+                .en__component--column--1{
+                }
+                // Second column
+                .en__component--column--2{
+                }
+
+            }   
+        }
+    }
+}

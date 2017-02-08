@@ -1,0 +1,85 @@
+// Page builder forms
+
+form{
+
+    &.en__component{
+
+        // Form errors list. Doesnt appear to be used as yet.
+        ul{
+            &.en__errorList{
+
+                li{
+                    
+                }
+            }
+        }
+    }
+}
+
+.en__component--formblock{
+    // Wraps Label and Div that wraps input
+    .en__field{
+
+        &.en__mandatory{
+
+        }
+
+        // Inline errors added via js
+        .en__field__error{
+
+        }
+
+        &.en__field--text{
+
+
+        }
+
+        &.en__field--checkbox{
+
+        }
+
+        &.en__field--opt-in-question{
+
+        }
+
+        // <label>
+        .en__field__label{
+
+        }
+        // Wraps inputs
+        .en__field__element{
+            // Shared class across input
+            .en__field__input{
+
+                // type="text"
+                &.en__field__input--text{
+                    
+                }
+
+
+                // Checklboxes
+                &.en__field__element--checkbox{
+
+                    // Row of Checkbox and label
+                    .en__field__item{
+
+                        .en__field__input{
+                            // type="checkbox 
+                            &.en__field__input--checkbox{
+
+                            }
+                        }
+                    }
+                }
+            }
+            
+            
+
+        }
+    } // EO .en__field
+}
+.en__submit{
+    button{
+
+    }
+}

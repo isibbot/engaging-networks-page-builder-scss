@@ -1,0 +1,28 @@
+// Share buttons
+
+.en__component--socialblock{
+
+    .en__shares{
+        // Simple style
+        &.en__shares--simple{
+    
+            .en__share{
+                a{
+
+                    // Twitter simple
+                    &.en__share__button--twitter{
+
+                    }
+                    // Facebook simple
+                    &.en__share__button--facebook{
+
+                    }
+                    // Gplus simple
+                    &.en__share__button--gplus{
+
+                    }
+                }
+            }
+        }
+    }
+}
